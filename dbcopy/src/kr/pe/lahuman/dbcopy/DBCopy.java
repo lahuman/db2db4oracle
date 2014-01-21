@@ -49,7 +49,7 @@ public class DBCopy {
 		
 		
 		//테이블 키워드
-		String tableLikeKeyword = "DB_SFC_TS_DD";
+		String tableLikeKeyword = "TABLE_NAME";
 		
 		//최대 갯수
 		int maxRownum = 30000;
