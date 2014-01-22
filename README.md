@@ -8,8 +8,10 @@ This program is simple and easy copy to DB.
 You will set information.
 
 DBCopy.java
+
 =================SOURCE 40 LINE==================
-    //original information
+                
+                //original information
 		String ourl = "jdbc:oracle:thin:@IP:PORT/SID";
 		String oid = "ID";
 		String opw = "PW";
@@ -24,6 +26,7 @@ DBCopy.java
 		
 		//ROW COUNT
 		int maxRownum = 30000;
+		
 =================SOURCE 55INE==================
 
 **NoTICE : Target table will be drop and create.
@@ -36,7 +39,8 @@ Good LUCK!
 다음 정보를 입력 하시고 실행하시면 됩니다.
 DBCopy.java
 =================SOURCE 40 LINE==================
-    //원본 접속정보
+
+                //원본 접속정보
 		String ourl = "jdbc:oracle:thin:@IP:PORT/SID";
 		String oid = "ID";
 		String opw = "PW";
@@ -51,6 +55,7 @@ DBCopy.java
 		
 		//최대 복사 행 수
 		int maxRownum = 30000;
+		
 =================SOURCE 55INE==================
 
 **공지 : 타겟 테이블을 drop 후 create 진행 합니다.
