@@ -211,7 +211,7 @@ public class DBCopy {
 			}
 			insertSQLBefore +=")";
 			insertSQLAfter += insertSQLBefore ;
-			selectSQL += " FROM KCDC." +tableName + " WHERE ROWNUM < "+maxRownum;
+			selectSQL += " FROM " +tableName + " WHERE ROWNUM < "+maxRownum;
 			
 			System.out.println("["+tableName+"] SQL : \""+selectSQL+"\"" );
 			System.out.println("["+tableName+"] SQL : \""+insertSQLAfter+"\"" );
